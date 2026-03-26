@@ -261,7 +261,6 @@ with col_left:
         value="ptl_fault_detection_best.pt",
         label_visibility="collapsed",
         placeholder="Path to .pt model file...",
-    )
 
     conf_threshold = st.slider(
         "Confidence threshold",
